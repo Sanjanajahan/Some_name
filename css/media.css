@@ -1,0 +1,31 @@
+/* laptop/desktop */
+ @media (max-width: 1199px){
+}
+/* laptop/desktop */
+/* large device */
+ @media (max-width: 991px){
+}
+/* large device */
+/* medium device*/
+ @media (max-width: 767px){
+}
+/* medium device */
+/* small device */
+ @media (max-width: 575px){
+     .navbar-dark .navbar-brand {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.nav-bar p {
+    font-size: 12px;
+}
+.nav-bar ul li a {
+    font-size: 12px;
+    padding: 3px 8px;
+}
+.calculator-design .btn-custom {
+    height: 38px;
+    width: 38px;
+    }
+     }
+/* small device */

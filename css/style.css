@@ -1,0 +1,121 @@
+/****header-part****/
+.header-part{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.navbar-dark .navbar-brand {
+    font-size: 28px;
+    color: #29d838d4 !important;
+}
+/****header-part****/
+
+/****nav-bar****/
+.nav-bar{
+    border-bottom: 2px solid #9f8b8b57;
+    padding: 10px 0px;
+    position: relative;
+}
+.nav-bar p{
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    transform: translateY(50%);
+    font-weight: 700;
+    font-size: 16px;
+    color: #be5d8a;
+    text-transform: uppercase;
+    width: 100%;
+} 
+.nav-bar{}
+.nav-bar ul{}
+.nav-bar ul li{}
+.nav-bar ul li a{
+    color: #333;
+    letter-spacing: 1px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.nav-bar ul li a:hover{
+    color: #079914e3;
+    } 
+.nav-bar ul li a::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    background-color: #079914e3;
+    bottom: -12px;
+    left: 0;
+    height: 8px;
+    transform: scaleX(0);
+    transition: all 0.2s cubic-bezier(1, 0.14, 0, 1.3);
+}
+.nav-bar ul li a:hover::after {
+    transform: scale(0.8);
+    color: #333;
+}
+/****nav-bar****/
+
+/****calculator-design***/
+form{
+    padding: 40px;
+}
+form input{
+    margin: 10px;
+    padding: 10px 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+form button{
+     margin: 10px;
+    padding: 10px 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.calculator-design .btn-custom{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    background-color: #80004b78;
+    color: #e0f708;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid tranparent;
+    margin: 10px;
+    border-radius: 12px;
+}
+.calculator-design .btn-custom:hover{
+    color: #27d010c2;
+    border: 2px solid #19972561;
+}
+.calculator-design .form-custom{
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    background-color: #80808054;
+    font-size: 30px;
+    color: #333;
+    font-weight: 600;
+}
+.calculator-design .implement-design{
+    background-color: #72d47212;
+    height: 100vh;
+}
+.calculator-body{
+    background-image: url(../image/poko.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    background: #333;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.footer p{}
